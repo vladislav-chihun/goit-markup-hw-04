@@ -133,6 +133,7 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   flex-shrink: 0; 
+  background-image: ;
   
 }
 .button {
@@ -205,6 +206,7 @@ padding-bottom: 24px;
 .footer-color {
   background-color: #2e2f42;
   padding: 100px 0 100px;
+  display: flex;
 
 }
 
@@ -282,7 +284,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 .footer-color .container a {
   margin-bottom: 16px;
-  display: inline-block;
+  display:block;
 }
 
 .nav-link {
@@ -417,4 +419,29 @@ border-bottom: 1px solid #e7e9fc;
 }
 .team-name-position {
   padding: 32px 0;
+}
+.footer-icon {
+  display:flex;
+}
+.footer-icon-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-color .container {
+  margin-left: 156px;
+  margin-right: 0px;
+}
+.footer-socialmedia {
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+color: var(--WHITE, #FFF);
+margin-bottom: 16px;
+}
+.footer-icon-div {
+  margin-left: 120px;
+  margin-right: 692px;
 }
