@@ -422,6 +422,12 @@ border-bottom: 1px solid #e7e9fc;
 }
 .footer-icon {
   display:flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: var(--IRIS, #4D5AE5);
+  justify-content: center;
+  align-items: center;
 }
 .footer-icon-list {
   display: flex;
@@ -444,4 +450,8 @@ margin-bottom: 16px;
 .footer-icon-div {
   margin-left: 120px;
   margin-right: 692px;
+}
+.footer-icon-link {
+  display: inline-block;
+  line-height: 0;
 }
