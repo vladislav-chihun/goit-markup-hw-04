@@ -549,3 +549,6 @@ margin: 24px 100px;
 .footer-div-main {
   display: flex;
 }
+.container-logo {
+  margin-right: 120px;
+}
