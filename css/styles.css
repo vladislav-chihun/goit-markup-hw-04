@@ -507,9 +507,13 @@ margin: 24px 100px;
   justify-content: center;
 
 }
-.team-icon:hover,
-.team-icon:focus {
-  background-color: var(--OCEAN, #404BBF);
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: #404bbf; 
+  
+}
+.test {
+  fill:#f4f4fd;
 }
 .team-icon-list {
   margin-top: 8px;
