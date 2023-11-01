@@ -507,8 +507,8 @@ margin: 24px 100px;
   background-radius: 50%;
 
 }
-.team-icon:hover,
-.team-icon:focus {
+.team-icon-link:hover,
+.team-icon-link:focus {
   background-color: var(--OCEAN, #404BBF);
 }
 .team-icon-list {
@@ -552,9 +552,6 @@ margin: 24px 100px;
 .portfolio-image {
   
   
-}
-.team-icon {
-  gap: 24px; 
 }
 .footer-icon {
   align-items: baseline;
