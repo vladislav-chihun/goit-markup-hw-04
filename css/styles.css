@@ -135,9 +135,10 @@ body {
   padding-bottom: 188px;
   flex-shrink: 0; 
   background-image:
+  background-size: cover; 
   linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
   url(../images/hero/bg.jpg) ;
-background-position: center;
+  background-position: center;
   max-width: 1440px;
   background-repeat: no-repeat;
 }
@@ -470,6 +471,8 @@ background: var(--CLOUD, #F4F4FD);
 width: 264px;
 height: 112px;
 margin-bottom: 8px;
+align-items: center;
+justify-content: center;
 }
 .descr-icons {
 margin: 24px 100px;
