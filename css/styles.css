@@ -289,7 +289,6 @@ border-bottom: 1px solid #e7e9fc;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none; 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-color .container a {
   margin-bottom: 16px;
@@ -534,6 +533,7 @@ margin: 24px 100px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   padding: 40px 32px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 
 }
