@@ -537,7 +537,6 @@ margin: 24px 100px;
 
 }
 .overlay-wrapper {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
 }
@@ -549,8 +548,7 @@ margin: 24px 100px;
   display: flex;
 }
 .portfolio-image {
-  
-  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
   gap: 24px; 
