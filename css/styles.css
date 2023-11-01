@@ -507,8 +507,8 @@ margin: 24px 100px;
   background-radius: 50%;
 
 }
-.team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon:hover,
+.team-icon:focus {
   background-color: var(--OCEAN, #404BBF);
 }
 .team-icon-list {
@@ -539,11 +539,12 @@ margin: 24px 100px;
 .overlay-wrapper {
   position: relative;
   overflow: hidden;
-
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portflio-list-item:hover .text-overlay {
   transform: translateY(0%);
-  transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .container-logo {
   margin-right: 120px;
@@ -552,6 +553,9 @@ margin: 24px 100px;
 .portfolio-image {
   
   
+}
+.team-icon {
+  gap: 24px; 
 }
 .footer-icon {
   align-items: baseline;
