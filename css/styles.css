@@ -503,6 +503,8 @@ margin: 24px 100px;
 .team-icon-link {
   display: inline-block;
   line-height: 0;
+  background-color: #4d5ae5;
+  background-radius: 50%;
 
 }
 .team-icon:hover,
@@ -511,6 +513,9 @@ margin: 24px 100px;
 }
 .team-icon-list {
   margin-top: 8px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .text-overlay {
