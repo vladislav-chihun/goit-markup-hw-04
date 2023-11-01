@@ -485,7 +485,7 @@ margin: 24px 100px;
 }
 .team-icon-list {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
