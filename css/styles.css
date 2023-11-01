@@ -498,6 +498,7 @@ margin: 24px 100px;
   background-color: var(--IRIS, #4D5AE5);
   justify-content: center;
   align-items: center;
+  gap: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-link {
