@@ -477,7 +477,7 @@ margin: 24px 100px;
   background: var(--OCEAN, #404BBF);
   width: 48px;
   height: 4px;
-  bottom: -1px;
+  bottom: -3px;
   position: absolute;
 }
 .navlink-studio {
