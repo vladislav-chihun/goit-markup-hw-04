@@ -456,7 +456,6 @@ margin-bottom: 16px;
 }
 .footer-icon-div {
   display: flex;
-  align-items: baseline;
 }
 .footer-icon-link {
   display: inline-block;
