@@ -491,11 +491,6 @@ margin: 24px 100px;
 .team-icon-link:focus  {
   background-color: #404bbf;
 }
-
-
-.icon-svg {
-  fill:#f4f4fd;
-}
 .team-icon-list {
   justify-content: center;
   margin-top: 8px;
