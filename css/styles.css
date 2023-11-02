@@ -538,4 +538,6 @@ margin: 24px 100px;
 .team-icon {
   gap: 24px; 
 }
-.container-logo {}
+.footer-icon-div {
+  display: flex;
+}
