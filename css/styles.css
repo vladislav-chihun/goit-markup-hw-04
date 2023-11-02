@@ -540,5 +540,7 @@ margin: 24px 100px;
 }
 .test {
   display: flex;
+}
+.footer-icon-div {
   align-items: baseline;
 }
