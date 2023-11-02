@@ -540,13 +540,12 @@ margin: 24px 100px;
 }
 .test {
   display: flex;
+  margin-right: 120px;
 }
 .footer-icon-div {
   align-items: baseline;
-  margin-right: 120px;
+  
 }
-.footer-icon-list {
+.footer-icon-div {
   display: flex;
-  gap: 16px;
 }
-.footer-icon 
