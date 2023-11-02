@@ -535,6 +535,7 @@ margin: 24px 100px;
 }
 .footer-main-div {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-icon-list {
