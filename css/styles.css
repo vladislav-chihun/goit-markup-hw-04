@@ -538,17 +538,17 @@ margin: 24px 100px;
 .team-icon {
   gap: 24px; 
 }
-.test {
+.footer-main-div {
   display: flex;
-  margin-right: 120px;
 }
 .footer-icon-div {
   align-items: baseline;
-  
-}
-.footer-icon-div {
 }
 .footer-icon-list {
   display: flex;
-
+  gap: 16px;
+}
+.container-logo {
+  margin-right: 120px;
+  align-items: baseline;
 }
