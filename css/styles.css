@@ -538,6 +538,7 @@ margin: 24px 100px;
 .container-logo {
   margin-right: 120px;
   display: flex;
+  align-items: baseline;
 }
 .team-icon {
   gap: 24px; 
