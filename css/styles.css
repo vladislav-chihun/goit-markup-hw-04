@@ -541,7 +541,3 @@ margin: 24px 100px;
   display: flex;
   gap: 16px;
 }
-.footer-color .container-logo {
-  margin-right: 120px;
-  align-items: baseline;
-}
