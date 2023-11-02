@@ -533,8 +533,7 @@ margin: 24px 100px;
 
 .footer-icon-list {
   display: flex;
-  gap: 1
-  6px;
+  gap: 16px;
 }
 .footer-icon {
   width: 40px;
@@ -557,6 +556,11 @@ margin: 24px 100px;
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
+
+.logo-container {
+  margin-right: 120px;
+}
+
 .icon-svg {
   fill: #f4f4fd;
 }
