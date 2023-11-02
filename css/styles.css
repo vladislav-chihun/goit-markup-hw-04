@@ -542,13 +542,13 @@ margin: 24px 100px;
   display: flex;
 }
 .footer-icon-div {
-  align-items: baseline;
+
 }
 .footer-icon-list {
   display: flex;
   gap: 16px;
 }
-.container-logo {
+.footer-color .container-logo {
   margin-right: 120px;
   align-items: baseline;
 }
