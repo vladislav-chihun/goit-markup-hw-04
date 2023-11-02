@@ -543,6 +543,5 @@ margin: 24px 100px;
   gap: 16px;
 }
 .footer-color .container {
-  display: flex;
-  align-items: baseline;
+margin-right: 120px;
 }
