@@ -557,11 +557,6 @@ margin: 24px 100px;
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
-
-.logo-container {
-  margin-right: 120px;
-}
-
 .icon-svg {
   fill: #f4f4fd;
 }
