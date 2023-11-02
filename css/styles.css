@@ -565,3 +565,6 @@ margin: 24px 100px;
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
+.container-logo {
+  margin-right: 120px;
+}
