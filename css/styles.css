@@ -426,7 +426,6 @@ border-bottom: 1px solid #e7e9fc;
 }
 .footer-color .container {
   margin-left: 156px;
-  margin-right: 0px;
 }
 .footer-socialmedia {
 font-size: 16px;
@@ -564,7 +563,7 @@ margin: 24px 100px;
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
-.container-logo {
+.logo-container {
   margin-right: 120px;
 }
 .icon-svg {
