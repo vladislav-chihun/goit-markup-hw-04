@@ -476,17 +476,32 @@
         <form class="modal-form">
           <div class="review-form-wrapper">
             <label class="review-form-wrapper" for="user-name">Name</label>
-            <input class="review-field" name="user_name" id="user-name" />
+            <div class="form-field">
+              <input class="review-field" name="user_name" id="user-name" />
+              <svg class="modal-icons" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-wrapper">
             <label class="review-form-wrapper" for="user-phone">Phone</label>
-            <input class="review-field" name="user_phone" id="user-phone" />
+            <div class="form-field">
+              <input class="review-field" name="user_phone" id="user-phone" />
+              <svg class="modal-icons" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-wrapper">
             <label class="review-form-wrapper" type="email" for="user-email"
               >Email</label
             >
-            <input class="review-field" name="user_email" id="user-email" />
+            <div class="form-field">
+              <input class="review-field" name="user_email" id="user-email" />
+              <svg class="modal-icons" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-wrapper">
             <label class="review-form-wrapper" for="user-comment"
@@ -500,8 +515,15 @@
             ></textarea>
           </div>
           <div>
-            <input class="review-checkbox" type="checkbox" />
-            <label>
+            <input
+              class="review-checkbox"
+              name="user_policy"
+              type="checkbox"
+              id="user-policy"
+              required
+              value="true"
+            />
+            <label class="modal-terms" for="user-policy">
               I accept the terms and conditions of the
               <a>Privacy Policy</a>
             </label>
