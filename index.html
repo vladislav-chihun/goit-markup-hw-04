@@ -462,21 +462,29 @@
           </ul>
         </div>
         <div class="test">
-          <p class="footer-sub-text">Subscribe</p>
-          <ul class="footer-field-list">
-            <form class="footer-email">
-              <input class="footer-email-input" placeholder="E-mail" />
-            </form>
-            <a href="" class="footer-form-sub-btn"
-              >Subscribe
-              <svg class="footer-telegram-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-telegram"></use></svg
-            ></a>
-          </ul>
+          <div class="footer-input-div">
+            <label class="footer-sub-text" for="sub-btn">Subscribe</label>
+            <ul class="footer-field-list">
+              <form class="footer-email">
+                <input
+                  class="footer-email-input"
+                  placeholder="E-mail"
+                  name="user_email_subscribe"
+                  id="sub-btn"
+                />
+              </form>
+              <a href="" class="footer-form-sub-btn"
+                >Subscribe
+                <svg class="footer-telegram-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-cancel-button-icon" type="button">
           <svg class="modal-cancel-icon" width="8px" height="8px">
@@ -491,7 +499,7 @@
             <label class="review-form-wrapper" for="user-name">Name</label>
             <div class="form-field">
               <input class="review-field" name="user_name" id="user-name" />
-              <svg class="modal-icons" width="18px" height="18px">
+              <svg class="modal-icons" width="18" height="18">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
@@ -537,8 +545,13 @@
               value="true"
             />
             <label class="modal-terms" for="user-policy">
+              <span class="">
+                <svg class="modal-con-checkbox" width="16" height="16">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a>Privacy Policy</a>
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
             </label>
           </div>
           <button class="review-form-button" type="submit">Send</button>
