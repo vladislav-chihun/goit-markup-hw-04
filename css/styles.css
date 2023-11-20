@@ -815,5 +815,5 @@ text-decoration-line: underline;
 .review-checkbox:checked + .modal-terms .modal-span-svg {
   fill: #F4F4FD;
   background-color: var(--OCEAN, #404BBF);
-  border: 2px solid var(--OCEAN, #404BBF);;
+  border: none;
 }
