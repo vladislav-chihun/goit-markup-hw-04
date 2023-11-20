@@ -755,9 +755,6 @@ letter-spacing: 0.48px;
   outline: transparent;
   border-color: #4D5AE5;
 }
-.footer-telegram-icon {
-
-}
 .footer-form-sub-btn:hover,
 .footer-form-sub-btn:focus {
 background-color: #404BBF;
@@ -767,7 +764,54 @@ background-color: #404BBF;
 text-align: center;
 padding: 16px 32px;
 width: 169px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+border-radius: 4px;
+color: #FFFFFF;
+margin-top: 24px;
+margin-left: 95px;
+
+
 }
 .modal-icon-checkbox {
-  stroke: tomato;
+  width: 10px;
+  height: 10px;
+}
+.modal-span-svg {
+  width: 16px;
+  height: 16px;
+  display:inline-flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  fill: transparent;
+  border-radius: 2px;
+  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  margin-right: 8px;
+
+}
+.modal-terms {
+  color: var(--LIGHT-SLATE, #8E8F99);
+/* Small Text */
+font-size: 12px;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+}
+.privacy-policy-link {
+  color: var(--IRIS, #4D5AE5);
+/* Link Text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.48px;
+text-decoration-line: underline;
+}
+.review-checkbox:checked + .modal-terms .modal-span-svg {
+  fill: #F4F4FD;
+  background-color: var(--OCEAN, #404BBF);
+  border: 2px solid var(--OCEAN, #404BBF);;
 }
