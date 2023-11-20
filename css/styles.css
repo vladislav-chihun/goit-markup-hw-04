@@ -587,6 +587,8 @@ margin: 24px 100px;
   background-color: #FCFCFC;
   top: 50%;
   left: 50%;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transform:translate(-50%, -50%)
 }
 .modal-cancel-button-icon {
@@ -733,22 +735,22 @@ display: inline-block;
   flex-direction: row;
 }
 .footer-email-input {
-width: 264px;
-height: 40px;
-background-color: transparent;
-border-radius: 4px;
-border: 1px solid var(--WHITE, #FFF);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #FFF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-email-input::placeholder {
   padding-left: 16px;
   color: var(--WHITE, #FFF);
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; 
-letter-spacing: 0.48px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 0.48px;
 }
 .footer-email-input:focus {
   outline-offset: 5px;
@@ -757,22 +759,38 @@ letter-spacing: 0.48px;
 }
 .footer-form-sub-btn:hover,
 .footer-form-sub-btn:focus {
-background-color: #404BBF;
+  background-color: #404BBF;
 
 }
 .review-form-button {
-text-align: center;
-padding: 16px 32px;
-width: 169px;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-border: none;
-border-radius: 4px;
-color: #FFFFFF;
-margin-top: 24px;
-margin-left: 95px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #4D5AE5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
+
+}
+.review-form-button:hover,
+.review-form-button:focus {
+   border: none;
 }
 .modal-icon-checkbox {
   width: 10px;
